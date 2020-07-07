@@ -65,7 +65,7 @@ def EnlaceGoogle():
     Shortener = pyshorteners.Shortener()
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
-    print(f"\033[95m\nYour link is: https://www.google.com-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.google.com᜵{Postlink}@{Withouthttp}")
     Other()
 
 def EnlaceYoutube():
@@ -80,7 +80,7 @@ def EnlaceYoutube():
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
     os.system('clear')
-    print(f"\033[95m\nYour link is: https://www.youtube.com-video-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.youtube.com᜵{Postlink}@{Withouthttp}")
     
     Other()
 
@@ -96,7 +96,7 @@ def EnlaceSpotify():
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
     os.system('clear')
-    print(f"\033[95m\nYour link is: https://www.spotify.com-video-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.spotify.com᜵{Postlink}@{Withouthttp}")
     
     Other()
 
@@ -112,7 +112,7 @@ def EnlaceInstagram():
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
     os.system('clear')
-    print(f"\033[95m\nYour link is: https://www.instagram.com-photo-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.instagram.com᜵{Postlink}@{Withouthttp}")
     
     Other()
 
@@ -128,7 +128,7 @@ def EnlaceFacebook():
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
     os.system('clear')
-    print(f"\033[95m\nYour link is: https://www.facebook.com-profile-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.facebook.com᜵{Postlink}@{Withouthttp}")
     Other()
 
 def EnlaceNewyorkTimes():
@@ -143,7 +143,7 @@ def EnlaceNewyorkTimes():
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
     os.system('clear')
-    print(f"\033[95m\nYour link is: https://www.newyorktimes.com-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.newyorktimes.com᜵{Postlink}@{Withouthttp}")
     
     Other()
 
@@ -160,7 +160,7 @@ def EnlacePersonalized():
     EndLink = Shortener.tinyurl.short(OriginalLink)
     Withouthttp = EndLink[7:]
     os.system('clear')
-    print(f"\033[95m\nYour link is: https://www.{Domain}-{Postlink}@{Withouthttp}")
+    print(f"\033[95m\nYour link is: https://www.{Domain}᜵{Postlink}@{Withouthttp}")
     
     Other()
 
